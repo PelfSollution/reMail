@@ -25,7 +25,7 @@ import {
             pY={12}
             columnOneContent={
               <>
-                <Img src="/static/img/modern.jpg" width={180} />
+                <Img src="../static/img/modern.jpg" width={180} />
               </>
             }
             columnOneStyles={{
@@ -34,19 +34,19 @@ import {
             columnTwoContent={
               <>
                 <Link href="#" style={{ fontSize: 0 }}>
-                  <img src="/static/img/black-facebook.png" width={30} />
+                  <img src="../static/img/black-facebook.png" width={30} />
                 </Link>
                 <Link href="#" style={{ fontSize: 0 }}>
-                  <img src="/static/img/black-twitter.png" width={30} />
+                  <img src="../static/img/black-twitter.png" width={30} />
                 </Link>
                 <Link href="#" style={{ fontSize: 0 }}>
-                  <img src="/static/img/black-youtube.png" width={30} />
+                  <img src="../static/img/black-youtube.png" width={30} />
                 </Link>
                 <Link href="#" style={{ fontSize: 0 }}>
-                  <img src="/static/img/black-linkedin.png" width={30} />
+                  <img src="../static/img/black-linkedin.png" width={30} />
                 </Link>
                 <Link href="#" style={{ fontSize: 0 }}>
-                  <img src="/static/img/black-instagram.png" width={30} />
+                  <img src="../static/img/black-instagram.png" width={30} />
                 </Link>
               </>
             }
@@ -56,7 +56,7 @@ import {
           />
           <SingleColumn
             style={{
-              backgroundImage: `url("/static/img/banner-bg.jpg")`,
+              backgroundImage: `url("../static/img/banner-bg.jpg")`,
               backgroundSize: "cover",
               width: "100%",
               padding: "48px 16px 64px",
@@ -91,7 +91,7 @@ import {
               <>
                 <Link href="#">
                   <img
-                    src="/static/img/email.png"
+                    src="../static/img/email.png"
                     width={130}
                     style={{ maxWidth: "130px" }}
                   />
@@ -107,7 +107,7 @@ import {
               <>
                 <Link href="#">
                   <img
-                    src="/static/img/settings.png"
+                    src="../static/img/settings.png"
                     width={130}
                     style={{ maxWidth: "130px" }}
                   />
@@ -123,7 +123,7 @@ import {
               <>
                 <Link href="#">
                   <img
-                    src="/static/img/home.png"
+                    src="../static/img/home.png"
                     width={130}
                     style={{ maxWidth: "130px" }}
                   />
@@ -143,7 +143,7 @@ import {
               <>
                 <Link href="#">
                   <img
-                    src="/static/img/keyboard.jpg"
+                    src="../static/img/keyboard.jpg"
                     width={260}
                     style={{ maxWidth: "260px" }}
                   />
@@ -210,26 +210,26 @@ import {
               padding: "20px 20px 40px",
             }}
           >
-            <img src="/static/img/modern-white.png" width={180} />
+            <img src="../static/img/modern-white.png" width={180} />
             <Text>Modern HTML Email</Text>
             <Text style={{ marginBottom: 10 }}>
               123 Street Road City, State 55555
             </Text>
             <div style={{ padding: "20px 0" }}>
               <Link href="#" style={{ fontSize: 0 }}>
-                <img src="/static/img/white-facebook.png" width={30} />
+                <img src="../static/img/white-facebook.png" width={30} />
               </Link>
               <Link href="#" style={{ fontSize: 0 }}>
-                <img src="/static/img/white-twitter.png" width={30} />
+                <img src="../static/img/white-twitter.png" width={30} />
               </Link>
               <Link href="#" style={{ fontSize: 0 }}>
-                <img src="/static/img/white-youtube.png" width={30} />
+                <img src="../static/img/white-youtube.png" width={30} />
               </Link>
               <Link href="#" style={{ fontSize: 0 }}>
-                <img src="/static/img/white-linkedin.png" width={30} />
+                <img src="../static/img/white-linkedin.png" width={30} />
               </Link>
               <Link href="#" style={{ fontSize: 0 }}>
-                <img src="/static/img/white-instagram.png" width={30} />
+                <img src="../static/img/white-instagram.png" width={30} />
               </Link>
             </div>
             <Link href="#" style={{ textTransform: "uppercase", color: "white" }}>
